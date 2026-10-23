@@ -1,12 +1,14 @@
 <h1 align="center">Semera</h1>
 
-<p align="center"><em>Small, focused software for seminars, camps, events and WordPress sites. Offline-first where it makes sense, no upsell anywhere.</em></p>
+<p align="center"><em>Small, focused software for seminars, camps, events, churches, associations and WordPress sites. Offline-first where it makes sense, no upsell anywhere.</em></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Electron-2c3e50.svg?logo=electron&logoColor=white" alt="Electron"/>
   <img src="https://img.shields.io/badge/React-61dafb.svg?logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Express-000000.svg?logo=express" alt="Express"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/SQLite-003B57.svg?logo=sqlite" alt="SQLite"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1.svg?logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/WordPress-21759b.svg?logo=wordpress" alt="WordPress"/>
   <img src="https://img.shields.io/badge/PHP-777bb4.svg?logo=php" alt="PHP"/>
 </p>
@@ -18,6 +20,8 @@ We build our own tools because the ones that exist are either too heavy, too exp
 | Project | What it does | Built with |
 | --- | --- | --- |
 | **Semera Workshops** | Desktop app that collects participant preferences and allocates workshops at seminars, camps and events. Works offline in a local network: participants fill in a form on their phone, organizers allocate and export the results (HTML, CSV, DOCX). | Electron, React, Express, SQLite |
+| **Semera Stempelpass** | Web app for churches and Konfi teams: organize events, issue QR-code stamps, follow every Konfi's progress with levels and achievements, and print Stempelheft PDFs at the end of a Jahrgang. | React, TypeScript, Vite, Tailwind CSS, Express, PostgreSQL |
+| **Semera CRM** | Contact and member management for associations. | — |
 
 ## 🧩 WordPress plugins
 

@@ -38,12 +38,15 @@ All plugins are translated into German and English.
 * **No upsell.** No pro tier, no locked features, no nag screens.
 * **Offline-first.** Our desktop software needs no internet, no accounts and no DNS setup.
 * **Accessible and fast.** Keyboard support and ARIA where it matters; no jQuery and no heavy dependencies on the front end.
-* **Open.** Each project lives in its own repository with a README that explains how it works and how to build it.
+* **Source-available.** Each project lives in its own repository with a README that explains how it works and how to build it.
 
-## 📄 Licenses
+## 📄 License
 
-* Apps (Semera Workshops, Semera CRM): MIT
-* WordPress plugins: GPL-2.0-or-later
+All Semera software is licensed under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0), with an explicit extra permission for non-profit organizations:
+
+* **Free** for personal and other noncommercial use.
+* **Free for non-profits** of any kind: associations (e.V.), clubs, churches, charities, foundations, schools.
+* **Commercial use needs a separate license**, get in touch.
 
 ## 👤 About
 

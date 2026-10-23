@@ -42,11 +42,12 @@ All plugins are translated into German and English.
 
 ## 📄 License
 
-All Semera software is licensed under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0), with an explicit extra permission for non-profit organizations:
-
-* **Free** for personal and other noncommercial use.
-* **Free for non-profits** of any kind: associations (e.V.), clubs, churches, charities, foundations, schools.
-* **Commercial use needs a separate license**, get in touch.
+* **Apps** (Workshops, Pay, CRM): [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) with an explicit extra permission for non-profit organizations. Source-available, not open source in the OSI sense.
+  * **Free** for personal and other noncommercial use.
+  * **Free for non-profits** of any kind: associations (e.V.), clubs, churches, charities, foundations, schools.
+  * **Commercial use needs a separate license**, get in touch.
+* **WordPress plugins** (Folders, Tabs): [GPL-2.0-or-later](https://www.gnu.org/licenses/gpl-2.0.html), the WordPress standard. Free for everyone, including commercial use.
+* **Stempelpass**: license terms on request.
 
 ## 👤 About
 

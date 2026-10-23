@@ -21,7 +21,7 @@ We build our own tools because the ones that exist are either too heavy, too exp
 | --- | --- | --- |
 | **Semera Workshops** | Desktop app that collects participant preferences and allocates workshops at seminars, camps and events. Works offline in a local network: participants fill in a form on their phone, organizers allocate and export the results (HTML, CSV, DOCX). | Electron, React, Express, SQLite |
 | **Semera Stempelpass** | Web app for churches and Konfi teams: organize events, issue QR-code stamps, follow every Konfi's progress with levels and achievements, and print Stempelheft PDFs at the end of a Jahrgang. | React, TypeScript, Vite, Tailwind CSS, Express, PostgreSQL |
-| **Semera CRM** | Contact and member management for associations. | — |
+| **Semera CRM** | Privacy-focused member management (*Vereinsverwaltung*) for non-profit and sports clubs: the full member lifecycle, SEPA direct debit files, donation receipts, a license and certification tracker, role-based access, personal data encrypted at rest and a GDPR export per member. | React, TypeScript, Node.js, SQLite |
 
 ## 🧩 WordPress plugins
 
@@ -42,7 +42,7 @@ All plugins are translated into German and English.
 
 ## 📄 Licenses
 
-* Desktop apps (for example Semera Workshops): MIT
+* Apps (Semera Workshops, Semera CRM): MIT
 * WordPress plugins: GPL-2.0-or-later
 
 ## 👤 About

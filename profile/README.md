@@ -20,11 +20,11 @@ We build our own tools because the ones that exist are either too heavy, too exp
 
 | Project | What it does | Built with |
 | --- | --- | --- |
-| **Semera Workshops** | Desktop app for Windows and macOS that collects participant preferences and allocates workshops at seminars, camps and events. Works offline in a local network: participants fill in a form on their phone, organizers allocate and export the results (HTML, CSV, DOCX). | Electron, React, Express, SQLite |
-| **Semera Agora** | Calendar and check-in as a progressive web app for camps and training courses that run over several days. | Progressive web app |
-| **Semera Pay** *(coming soon)* | iOS app for cashless payment in the bistro at seminars: load credit onto an NFC card, pay with the app, get the rest back at the end. Works completely offline. | iOS, NFC |
-| **Semera Stempelpass** | Web app for churches and Konfi teams: organize events, issue QR-code stamps, follow every Konfi's progress with levels and achievements, and print Stempelheft PDFs at the end of a Jahrgang. | React, TypeScript, Vite, Tailwind CSS, Express, PostgreSQL |
-| **Semera CRM** | Privacy-focused member management (*Vereinsverwaltung*) for non-profit and sports clubs: the full member lifecycle, SEPA direct debit files, donation receipts, a license and certification tracker, role-based access, personal data encrypted at rest and a GDPR export per member. | React, TypeScript, Node.js, SQLite |
+| <img src="./icons/workshops.png" width="28" align="center" alt=""/> **Semera Workshops** | Desktop app for Windows and macOS that collects participant preferences and allocates workshops at seminars, camps and events. Works offline in a local network: participants fill in a form on their phone, organizers allocate and export the results (HTML, CSV, DOCX). | Electron, React, Express, SQLite |
+| <img src="./icons/agora.png" width="28" align="center" alt=""/> **Semera Agora** | Calendar and check-in as a progressive web app for camps and training courses that run over several days. | Progressive web app |
+| <img src="./icons/pay.png" width="28" align="center" alt=""/> **Semera Pay** *(coming soon)* | iOS app for cashless payment in the bistro at seminars: load credit onto an NFC card, pay with the app, get the rest back at the end. Works completely offline. | iOS, NFC |
+| <img src="./icons/stempelpass.png" width="28" align="center" alt=""/> **Semera Stempelpass** | Web app for churches and Konfi teams: organize events, issue QR-code stamps, follow every Konfi's progress with levels and achievements, and print Stempelheft PDFs at the end of a Jahrgang. | React, TypeScript, Vite, Tailwind CSS, Express, PostgreSQL |
+| <img src="./icons/crm.png" width="28" align="center" alt=""/> **Semera CRM** | Privacy-focused member management (*Vereinsverwaltung*) for non-profit and sports clubs: the full member lifecycle, SEPA direct debit files, donation receipts, a license and certification tracker, role-based access, personal data encrypted at rest and a GDPR export per member. | React, TypeScript, Node.js, SQLite |
 
 Agora, Stempelpass and CRM can also be hosted by Semera for your organization, on request.
 
@@ -32,8 +32,8 @@ Agora, Stempelpass and CRM can also be hosted by Semera for your organization, o
 
 | Plugin | What it does | Version |
 | --- | --- | --- |
-| **Semera Folders** | Folders for the media library, modelled on Windows Explorer: folders and files in one list, compact details view, drag and drop, upload by drag and drop, a preview popup for every file. | 0.1.2 |
-| **Semera Tabs** | A tabs block for the block editor: icons, any blocks inside, accordion on small screens, accessible, no jQuery on the front end. | 0.1.1 |
+| <img src="./icons/folders.png" width="28" align="center" alt=""/> **Semera Folders** | Folders for the media library, modelled on Windows Explorer: folders and files in one list, compact details view, drag and drop, upload by drag and drop, a preview popup for every file. | 0.1.2 |
+| <img src="./icons/tabs.png" width="28" align="center" alt=""/> **Semera Tabs** | A tabs block for the block editor: icons, any blocks inside, accordion on small screens, accessible, no jQuery on the front end. | 0.1.1 |
 
 All plugins are translated into German and English.
 

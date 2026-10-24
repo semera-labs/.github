@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/SQLite-003B57.svg?logo=sqlite" alt="SQLite"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1.svg?logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/iOS-000000.svg?logo=apple&logoColor=white" alt="iOS"/>
   <img src="https://img.shields.io/badge/WordPress-21759b.svg?logo=wordpress" alt="WordPress"/>
   <img src="https://img.shields.io/badge/PHP-777bb4.svg?logo=php" alt="PHP"/>
 </p>
@@ -19,9 +20,13 @@ We build our own tools because the ones that exist are either too heavy, too exp
 
 | Project | What it does | Built with |
 | --- | --- | --- |
-| **Semera Workshops** | Desktop app that collects participant preferences and allocates workshops at seminars, camps and events. Works offline in a local network: participants fill in a form on their phone, organizers allocate and export the results (HTML, CSV, DOCX). | Electron, React, Express, SQLite |
+| **Semera Workshops** | Desktop app for Windows and macOS that collects participant preferences and allocates workshops at seminars, camps and events. Works offline in a local network: participants fill in a form on their phone, organizers allocate and export the results (HTML, CSV, DOCX). | Electron, React, Express, SQLite |
+| **Semera Agora** | Calendar and check-in as a progressive web app for camps and training courses that run over several days. | Progressive web app |
+| **Semera Pay** *(coming soon)* | iOS app for cashless payment in the bistro at seminars: load credit onto an NFC card, pay with the app, get the rest back at the end. Works completely offline. | iOS, NFC |
 | **Semera Stempelpass** | Web app for churches and Konfi teams: organize events, issue QR-code stamps, follow every Konfi's progress with levels and achievements, and print Stempelheft PDFs at the end of a Jahrgang. | React, TypeScript, Vite, Tailwind CSS, Express, PostgreSQL |
 | **Semera CRM** | Privacy-focused member management (*Vereinsverwaltung*) for non-profit and sports clubs: the full member lifecycle, SEPA direct debit files, donation receipts, a license and certification tracker, role-based access, personal data encrypted at rest and a GDPR export per member. | React, TypeScript, Node.js, SQLite |
+
+Agora, Stempelpass and CRM can also be hosted by Semera for your organization, on request.
 
 ## 🧩 WordPress plugins
 
@@ -36,9 +41,10 @@ All plugins are translated into German and English.
 
 * **Small and focused.** One job per tool. No settings page nobody asked for, no feature creep.
 * **No upsell.** No pro tier, no locked features, no nag screens.
-* **Offline-first.** Our desktop software needs no internet, no accounts and no DNS setup.
+* **Offline-first.** Where it makes sense our software works without internet: Workshops runs in a local network with no accounts and no DNS setup, Pay works completely offline.
 * **Accessible and fast.** Keyboard support and ARIA where it matters; no jQuery and no heavy dependencies on the front end.
-* **Source-available.** Each project lives in its own repository with a README that explains how it works and how to build it.
+* **Source-available.** The source is public: the WordPress plugins are open source (GPL), the apps are source-available under PolyForm Noncommercial. Each project has a README that explains how it works and how to build it.
+* **Light on data.** No trackers, no cookies and no requests to third parties on our website. Where possible, the data stays on your own device.
 
 ## 📄 License
 
@@ -47,7 +53,7 @@ All plugins are translated into German and English.
   * **Free for non-profits** of any kind: associations (e.V.), clubs, churches, charities, foundations, schools.
   * **Commercial use needs a separate license**, get in touch.
 * **WordPress plugins** (Folders, Tabs): [GPL-2.0-or-later](https://www.gnu.org/licenses/gpl-2.0.html), the WordPress standard. Free for everyone, including commercial use.
-* **Stempelpass**: license terms on request.
+* **Agora and Stempelpass**: license terms on request.
 
 ## 👤 About
 
